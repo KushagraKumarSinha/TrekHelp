@@ -1,0 +1,36 @@
+.HomeScreen {
+    background-color: rgb(32, 30, 30);
+    background-position: center;
+    display: grid;
+    place-content: center;
+    min-height: 100vh; /* Changed from min-height: 100%; to ensure full viewport height */
+    text-align: center;
+    background-blend-mode: darken;
+    position: relative; /* Changed from position: fixed; to allow scrolling */
+}
+
+.LocationCard{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.CardInfo{
+    font-weight: bold;
+}
+
+.MessageHolder{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.MessageInput{
+    padding-bottom: 50px;
+}
+
+.DisplayMess{
+    color: white;
+    font-weight: bold;
+}
+.CompanyTitle{
+    font-weight: bold;
+}
